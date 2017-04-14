@@ -15,11 +15,11 @@ for (let i=0; i<botoes.length; i++){
     let paragrafoCorrespondente = e.target.parentNode;
     if (paragrafoCorrespondente.classList.contains('expandido')){
         paragrafoCorrespondente.classList.remove('expandido');
-        e.target.innerHTML = '-';
+        e.target.innerHTML = '+';
     }
     else {
       paragrafoCorrespondente.classList.add('expandido');
-      e.target.innerHTML = '+';
+      e.target.innerHTML = '-';
     }
 
   });
